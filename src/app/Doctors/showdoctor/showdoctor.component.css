@@ -1,0 +1,35 @@
+i{
+  color: #fcb900;
+  font-size: 25px;
+}
+.fa-circle-check{
+color: lightskyblue;
+}
+.section-bg{
+  background-color: #243551;
+  color:white
+}
+img{
+  border: 5 solid;
+  border-radius: 10%;
+}
+.btn{
+  width: 30%;
+  margin: auto;
+  background-color: #62a3cce1;
+}
+.button{
+  background-color: rgb(251,105,98);
+
+}
+h5{
+  color:  rgb(251,105,98);
+}
+span{
+  color:  #62a3cc;
+
+}
+.info{
+  color: grey
+}
+

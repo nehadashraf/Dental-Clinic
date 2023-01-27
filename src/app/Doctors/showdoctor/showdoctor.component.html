@@ -1,0 +1,33 @@
+
+<section id="chefs" class="chefs section-bg">
+  <div class="container" data-aos="fade-up">
+    <a class=" text-left back mb-5" routerLink="/home"><i class="fa-solid fa-house"></i></a>
+    <div class="section-header">
+    </div>
+    <div class="row ">
+      <div class="col-md-5 image" style="width: 22rem; ">
+        <img [src]="doctor.imgUrl" class="card-img-top" alt="...">
+      </div>
+      <div class="col-md-6 pt-4 pt-lg-0 content">
+        <h3>Dr {{doctor.name}} <i class="fa-solid fa-circle-check"></i></h3>
+        <h5 class="mb-4">{{doctor.Specialization}}</h5>
+        <a  routerLink="/doctors">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </a>
+        <p class="fst-italic pt-5 ">{{doctor.about}}</p>
+        <div class="mt-5 info ">
+         <p> <span > Email:</span> {{doctor.gmail}}</p>
+         <p><span > Phone:</span>  {{doctor.phone}}</p>
+         <a class="btn " routerLink="/doctors">Back</a>
+
+      </div>
+     </div>
+    </div>
+
+  </div>
+</section>
+

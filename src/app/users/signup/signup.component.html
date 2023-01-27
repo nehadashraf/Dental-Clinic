@@ -1,0 +1,27 @@
+<div class="container-fluid mt-5 pt-5 pb-5">
+      <div class="card m-auto">
+        <h1 class="text-center pt-5 pb-2 text">Sign Up</h1>
+        <div class="card-body">
+          <form #signUpForm="ngForm" (change)="print(signUpForm)">
+          <div class="form-group mb-3">
+            <label for="" class="text">User Name</label>
+            <input type="text" required name="userName" [(ngModel)]="users.name" maxlength="30" minlength="3" #sigUpName="ngModel" class="form-control">
+            <div *ngIf="sigUpName.touched && sigUpName.invalid" class="alert alert-danger">
+              <p>Please Enter vaild Name</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="text"  >Password</label>
+            <input type="password" required name="Password" #sigUpPassword="ngModel"  maxlength="30" minlength="6" [(ngModel)]="users.password" class="form-control">
+            <div *ngIf="sigUpPassword.touched && sigUpPassword.invalid" class="alert alert-danger">
+              <p>Please Enter vaild Password</p>
+            </div>
+          </div>
+          <button [disabled]="signUpForm.invalid" class="btn btn-info w-100 mt-5" (click)="onSubmit()" >
+            Sign Up
+          </button>
+          </form>
+      </div>
+      <a routerLink="/login" class="text-center mb-4">Log IN</a>
+    </div>
+      </div>

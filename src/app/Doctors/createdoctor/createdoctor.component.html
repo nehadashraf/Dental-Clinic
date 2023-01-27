@@ -1,0 +1,69 @@
+<div class="container-fluid mt-5 pt-5">
+  <a class=" text-left back mb-5" routerLink="/home"><i class="fa-solid fa-house"></i></a>
+  <div class="card mt-4">
+    <a class="btn text-left mt-5" routerLink="/doctors">Back</a>
+    <h1 class="text-center mt-3">Welcome Doctor</h1>
+    <h6 class="text-center">We are so happy to work with you</h6>
+    <div class="card-body">
+      <form  #doctorForm="ngForm" >
+      <div class="form-group">
+        <label for="" class="">Name</label>
+        <input type="text" required [(ngModel)]="doctor.name" name="name" #doctorName="ngModel" class="form-control"  maxlength="30" minlength="3">
+      <div *ngIf="doctorName.touched && doctorName.invalid" class="alert alert-danger">
+        <p>You Must Enter vaild Name</p>
+      </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="">Phone</label>
+        <input type="text" required [(ngModel)]="doctor.phone" name="Phone" #doctorPhone="ngModel" class="form-control"  maxlength="30" minlength="3">
+      <div *ngIf="doctorPhone.touched && doctorPhone.invalid" class="alert alert-danger">
+        <p>You Must Enter vaild Name</p>
+      </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="">E-mail</label>
+        <input type="email" name="email" required  #doctorEmail="ngModel" [(ngModel)]="doctor.gmail" class="form-control">
+      <div *ngIf="doctorEmail.touched && doctorEmail.invalid" class="alert alert-danger">
+        <p>Please Enter Valid E-mail</p>
+      </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="">Specialization</label>
+        <select name="Specialization" required id="city" #doctorSpecialization="ngModel" class="form-select" [(ngModel)]="doctor.Specialization">
+          <option>Cosmetic Dental Services</option>
+          <option>Crown and bridges</option>
+          <option>Dental implants</option>
+          <option>Dentures and partial dentures</option>
+          <option>Restorative and cosmetic dentistry</option>
+          <option>Porcelain veneers</option>
+          </select>
+          <div *ngIf="doctorSpecialization.touched && doctorSpecialization.invalid" class="alert alert-danger">
+            <p>Please Choose Specialization</p>
+          </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="">Age</label>
+        <input type="number" required name="age" [(ngModel)]="doctor.age" #doctorAge="ngModel" class="form-control">
+        <div *ngIf="doctorAge.touched && doctorAge.invalid" class="alert alert-danger">
+          <p>You Must Enter Your Age</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="">ImgUrl</label>
+        <input type="url" required #doctorimgUrl="ngModel" name="imgUrl" [(ngModel)]="doctor.imgUrl" class="form-control">
+        <div *ngIf="doctorimgUrl.touched && doctorimgUrl.invalid" class="alert alert-danger">
+          <p>You Must Enter Your Picture</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="">About</label>
+        <textarea type="text" required name="about" #doctorAbout="ngModel"  class="form-control"  [(ngModel)]="doctor.about" rows="5"></textarea>
+        <div *ngIf="doctorAbout.touched && doctorAbout.invalid" class="alert alert-danger">
+          <p>You Must Enter Data</p>
+        </div>
+      </div>
+      <button [disabled]="doctorForm.invalid"  (click)="onSubmit()" class="btn btn-info w-100">Send</button>
+      </form>
+  </div>
+    </div>
+  </div>

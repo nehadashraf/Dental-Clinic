@@ -1,0 +1,50 @@
+h1{
+  color: #3b79a0;
+  font-weight: bold;
+}
+h6{
+  color: grey;
+}
+.container-fluid{
+  background-image: url(../../../assets/img/pexels-gustavo-fring-4971514.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card{
+  width: 80%;
+  margin: auto;
+  background-color: rgb(189, 189, 189);
+  border-radius: 20%;
+  opacity: 0.9;
+  padding: 0 10%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.form-group{
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+}
+.btn{
+ background-color: #3b79a0;
+ color: white;
+}
+.back{
+  text-decoration: none;
+  font-size: 20px;
+  background-color:rgba(251, 106, 98, 0.854);
+  color: white;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.text-left{
+  width: 8%;
+  }
+@media (max-width: 750px) {
+  .card{
+    width: 98%;
+    border-radius: 5px;
+  }
+  .text-left{
+    width: 25%;
+    }
+}

@@ -1,0 +1,31 @@
+
+<section id="chefs" class="chefs section-bg">
+  <div class="container" data-aos="fade-up">
+    <a class=" text-left back mb-5" routerLink="/home"><i class="fa-solid fa-house"></i></a>
+    <div class="section-header">
+      <h1 class="head">DOCTORS</h1>
+      <a class="btn btn-info mr-2 mt-3" routerLink="/createDoctor" >NEW Doctor</a>
+    </div>
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100" *ngFor="let data of allData;let i=index">
+          <div class="chef-member">
+          <div class="member-img ">
+            <img [src]="data.imgUrl" class="img-fluid " alt="">
+            <div class="social">
+              <a  (click)="onDelete(data.id)"><i class="fa-solid fa-delete-left"></i></a>
+              <a  routerLink="/updateDoctor/{{data.id}}"><i class="fa-solid fa-pen-to-square "></i></a>
+            </div>
+          </div>
+          <a routerLink="/showdoctor/{{data.id}}">
+          <div class="member-info">
+            <h4>Dr {{data.name}}</h4>
+            <span>{{data.Specialization}}</span>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

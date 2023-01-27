@@ -1,0 +1,50 @@
+.thead{
+  background-color:  #3b79a092;
+}
+*{
+  color: white;
+  font-weight: bold;
+}
+.table{
+  background-color: rgb(215, 211, 211);
+}
+.card
+{
+  width: 90%;
+margin: auto;
+  background-color:#3b79a057;
+}
+tbody{
+  border: 3px solid ;
+}
+.btn{
+  background-color:  rgba(251, 106, 98, 0.854);
+}
+.container-fluid{
+  background-image: url("https://images.pexels.com/photos/4269362/pexels-photo-4269362.jpeg?auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dropdown-menu
+{
+  min-width: 10px;
+  background-color: rgb(215, 211, 211); ;
+}
+.fa-trash{
+  color: rgba(255, 0, 0, 0.639);
+}
+.fa-pen-to-square{
+  color:  #3b79a092;
+}
+.fa-eye{
+  color:  #3b79a0e3;
+}
+.back{
+  text-decoration: none;
+  font-size: 20px;
+  background-color:rgba(251, 106, 98, 0.854);
+  color: white;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 20px;
+}

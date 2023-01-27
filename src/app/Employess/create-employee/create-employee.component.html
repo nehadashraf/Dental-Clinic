@@ -1,0 +1,73 @@
+<div class="container-fluid mt-5 pt-5">
+  <a class=" text-left back mb-5" routerLink="/home"><i class="fa-solid fa-house"></i></a>
+  <div class="card mt-4">
+    <a class="btn text-left mt-4 " routerLink="/employees">Back</a>
+    <h1 class="text-center mt-3">Welcome</h1>
+    <h6 class="text-center">We are so happy to work with you</h6>
+    <div class="card-body">
+      <form  #EmployeeForm="ngForm" >
+      <div class="form-group">
+        <label for="" class="">Name</label>
+        <input type="text" required [(ngModel)]="employee.name" name="name" #employeeName="ngModel" class="form-control"  maxlength="30" minlength="3">
+      <div *ngIf="employeeName.touched && employeeName.invalid" class="alert alert-danger">
+        <p>You Must Enter vaild Name</p>
+      </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="">Age</label>
+        <input type="number" required name="age" [(ngModel)]="employee.age" #employeeAge="ngModel" class="form-control">
+        <div *ngIf="employeeAge.touched && employeeAge.invalid" class="alert alert-danger">
+          <p>You Must Enter Your Age</p>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="">Phone</label>
+        <input type="text" required [(ngModel)]="employee.phone" name="Phone" #employeePhone="ngModel" class="form-control"  maxlength="30" minlength="3">
+      <div *ngIf="employeePhone.touched && employeePhone.invalid" class="alert alert-danger">
+        <p>You Must Enter vaild Name</p>
+      </div>
+      </div>
+      <div class="form-group">
+        <label for="" class="">E-mail</label>
+        <input type="email" name="email" required  #employeeEmail="ngModel" [(ngModel)]="employee.gmail" class="form-control">
+      <div *ngIf="employeeEmail.touched && employeeEmail.invalid" class="alert alert-danger">
+        <p>Please Enter Valid E-mail</p>
+      </div>
+      </div>
+      <div class="form-group">
+        <p>Gender</p>
+        <div class="form-check">
+        <input class="form-check-input" type="radio" name="gender" value="male" [(ngModel)]="employee.gender">
+        <label class="form-check-label" for="">Male</label>
+        </div>
+        <div class="form-check">
+        <input class="form-check-input" type="radio" name="gender" value="female" checked [(ngModel)]="employee.gender">
+        <label class="form-check-label" for="">Female</label>
+        </div>
+    </div>
+      <div class="form-group">
+        <label for="" class="">Work</label>
+        <select name="Specialization" required id="city" #employeeWork="ngModel" class="form-select" [(ngModel)]="employee.work">
+          <option>Executive Manager</option>
+          <option>General Manager</option>
+          <option>Doctor Assastant</option>
+          <option>Manger Assastant</option>
+          </select>
+          <div *ngIf="employeeWork.touched && employeeWork.invalid" class="alert alert-danger">
+            <p>Please Choose Your Work</p>
+          </div>
+      </div>
+
+      <div class="form-group">
+        <label for="" class="">ImgUrl</label>
+        <input type="url" required #employeeImgUrl="ngModel" name="imgUrl" [(ngModel)]="employee.imgUrl" class="form-control">
+        <div *ngIf="employeeImgUrl.touched && employeeImgUrl.invalid" class="alert alert-danger">
+          <p>You Must Enter Your Picture</p>
+        </div>
+      </div>
+      <button [disabled]="EmployeeForm.invalid"  (click)="onSubmit()" class="btn btn-info w-100">Send</button>
+      </form>
+  </div>
+    </div>
+  </div>
+

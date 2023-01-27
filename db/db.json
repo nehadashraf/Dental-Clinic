@@ -1,0 +1,262 @@
+{
+  "users": [
+    {
+      "id": 115,
+      "name": "RAmy",
+      "password": 123123
+    },
+    {
+      "name": "Nehad",
+      "password": "555",
+      "id": 116116
+    },
+    {
+      "name": "nono",
+      "password": "234",
+      "id": 117117
+    },
+    {
+      "name": "Nehad",
+      "password": "123456",
+      "id": 118118
+    },
+    {
+      "name": "Ibrahim",
+      "password": "279297",
+      "id": 118119
+    }
+  ],
+  "Doctors": [
+    {
+      "id": 15200,
+      "name": "Ashlin Alexander ",
+      "imgUrl": "https://www.beautifi.com/wp-content/uploads/2022/01/So-You-Have-Decided-to-Undergo-a-Breast-Augmentation.-Now-Comes-the-Most-Frequently-Asked-Question-Silicone-or-Saline-65-%C3%97-24-in-600-%C3%97-600-px-250-%C3%97-250-px-20.png",
+      "about": "Dr. Ashlin Alexander strongly believes that to provide the best results, one must be focused. His practice has five pillars: rhinoplasty, facelift, anti-aging face surgery, non-surgical facial rejuvenation, and hair restoration. As a Manhattan-trained Facial Cosmetic Surgeon, Dr. Alexander has devoted his entire career to the specialized treatment of the hair, nose and face, and to bringing the flair of New York City back home to Toronto.",
+      "Specialization": "Crown and bridges",
+      "age": 30,
+      "gmail": "AshlinAlexander@gamil.com",
+      "phone": "010160489"
+    },
+    {
+      "id": 15201,
+      "name": "Sofie Schlagintweith ",
+      "imgUrl": "https://www.beautifi.com/wp-content/uploads/2022/01/Untitled-design-2.png",
+      "about": "Dr. Sofie Schlagintweit was born and raised in the Fraser Valley and is dedicated to fostering positive relationships and serving her community. Sofie holds privileges at Langley Memorial Hospital and Abbotsford Regional Hospital. Her office is associated with YES Medspa & Cosmetic Surgery Centre. She performs both publicly covered (MSP) and aesthetic surgery.",
+      "Specialization": "Restorative and cosmetic dentistry",
+      "age": 40,
+      "gmail": "SofieSchlagintweit@gamil.com",
+      "phone": "010160489"
+    },
+    {
+      "id": 15202,
+      "name": "Anil Sharma",
+      "imgUrl": "https://www.beautifi.com/wp-content/uploads/2022/01/Orange-Beige-Paper-Background-Client-Testimonial-Review-Instagram-Post-22.png",
+      "about": "Dr. Anil Sharma is an accomplished physician who previously practiced in the bustling heart of London, England, and still maintains his practice there. With the launch of Sharma Skin & Hair Surgery in Edmonton, Dr. Sharma is combining the highest standard of care with the sophistication and comfort of world-class European clinics. He takes a collaborative approach with his patients, whether it is during the initial consultation, treatment phase, or a follow-up appointment.",
+      "Specialization": "Dental implants",
+      "age": 50,
+      "gmail": "AnilSharma@gamil.com",
+      "phone": "010160489"
+    },
+    {
+      "id": 15203,
+      "name": "Kashif Irshad",
+      "imgUrl": "https://www.beautifi.com/wp-content/uploads/2022/07/So-You-Have-Decided-to-Undergo-a-Breast-Augmentation.-Now-Comes-the-Most-Frequently-Asked-Question-Silicone-or-Saline-65-%C3%97-24-in-600-%C3%97-600-px-250-%C3%97-250-px-7.png",
+      "about": "Dr. Kashif Irshad is a general and thoracic surgeon who specializes in bariatric surgery at Clinic 360. As a Fellow of the Royal College of Physicians and Surgeons of Canada, Dr. Irshad is dedicated to the advancement of new and innovative techniques in cutting-edge thoracic surgery procedures and continually pursues excellence in surgery.",
+      "Specialization": "Dentures and partial dentures",
+      "age": 50,
+      "gmail": "KashifIrshad@gamil.com",
+      "phone": "010160489"
+    },
+    {
+      "id": 15204,
+      "name": "Golnoush (Goli) Ariafar ",
+      "imgUrl": "https://www.beautifi.com/wp-content/uploads/2022/06/So-You-Have-Decided-to-Undergo-a-Breast-Augmentation.-Now-Comes-the-Most-Frequently-Asked-Question-Silicone-or-Saline-65-%C3%97-24-in-600-%C3%97-600-px-6-1.png",
+      "about": "Dr. Goli Ariafar is a general dentist working with the Smile Centre Dental Group. While Dr. Ariafar is skilled in all aspects of dentistry, her passion lies in Cosmetic Dental procedures. She has done many beautiful Smile Makeovers at the Smile Centre.",
+      "Specialization": "Porcelain veneers",
+      "age": 50,
+      "gmail": "Goli@gamil.com",
+      "phone": "010160489"
+    },
+    {
+      "id": 15205,
+      "name": "Ali Esmail",
+      "imgUrl": "https://www.beautifi.com/wp-content/uploads/2022/01/So-You-Have-Decided-to-Undergo-a-Breast-Augmentation.-Now-Comes-the-Most-Frequently-Asked-Question-Silicone-or-Saline-65-%C3%97-24-in-600-%C3%97-600-px-250-%C3%97-250-px-10.png",
+      "about": "One of the best cosmetic and reconstructive facial surgeons in the nation, Dr. Ali Esmail is the first and only facial plastic surgeon with fellowship training in Winnipeg. In contrast to a general plastic surgeon, Dr. Esmail had six years of specialized medical training that was predominantly neck-up oriented. All his patients feel at ease and secure in his treatment because of his keen sense of symmetry and passion for perfection.",
+      "Specialization": "Dental implants",
+      "age": 44,
+      "gmail": "AliEsmail@gmail.com",
+      "phone": "010160489"
+    }
+  ],
+  "Patients": [
+    {
+      "gender": "male",
+      "name": "Ahmed Ashraf ",
+      "phone": 1016047883,
+      "age": 30,
+      "date": "22222-02-22",
+      "city": "Dumyat",
+      "id": 15007,
+      "service": "Dentures and partial dentures",
+      "appointment": "3333-03-31"
+    },
+    {
+      "gender": "female",
+      "name": "Nehad Ashraf",
+      "phone": 1016047883,
+      "age": 33,
+      "date": "0222-02-22",
+      "city": "Al Qalyubiyah",
+      "id": 15008,
+      "service": "Dental implants",
+      "appointment": "2222-02-22"
+    },
+    {
+      "name": "Hossam Ashraf",
+      "phone": 1016047883,
+      "age": 20,
+      "date": "3333-03-31",
+      "city": "Ash Sharqiyah",
+      "gender": "male",
+      "service": "Dental implants",
+      "appointment": "3333-03-31",
+      "id": 15009
+    }
+  ],
+  "Employees": [
+    {
+      "id": 16000,
+      "name": "Leslie L. Nguyen",
+      "imgUrl": "https://thumbs.dreamstime.com/b/happy-business-going-young-man-formalwear-looking-computer-monitor-talking-mobile-phone-sitting-his-40609384.jpg",
+      "age": 30,
+      "gmail": "LeslieNguyen@gamil.com",
+      "phone": "010160489",
+      "work": "Executive Manager",
+      "gender": "male"
+    },
+    {
+      "id": 16001,
+      "name": "Terri R. Shield",
+      "imgUrl": "https://thumbs.dreamstime.com/b/business-woman-office-happy-young-sitting-47256076.jpg",
+      "age": 30,
+      "gmail": "Terri@gamil.com",
+      "phone": "010160489",
+      "work": "General Manager",
+      "gender": "female"
+    },
+    {
+      "id": 16002,
+      "name": "Tina Conaway",
+      "imgUrl": "https://thumbs.dreamstime.com/b/businesswoman-clipboard-office-successful-businesswoman-clipboard-standing-office-colleagues-behind-235476908.jpg",
+      "age": 30,
+      "gmail": "Tina@gamil.com",
+      "phone": "010160489",
+      "work": "Manager Assestant",
+      "gender": "female"
+    },
+    {
+      "id": 16003,
+      "name": "Reta Lee",
+      "imgUrl": "https://thumbs.dreamstime.com/b/young-doctor-assistant-standing-medical-office-noting-prescriptions-doctor-assistant-noting-prescriptions-229952472.jpg",
+      "age": 30,
+      "gmail": "Reta@gamil.com",
+      "phone": "010160489",
+      "work": "Doctor Assestant",
+      "gender": "female"
+    },
+    {
+      "id": 16004,
+      "name": "Ashraf Gomaaaaaa",
+      "imgUrl": "https://media.istockphoto.com/id/468917986/photo/doctor-or-nurse-in-medical-setting.jpg?s=612x612&w=0&k=20&c=U3b8a5U9YT52DRQwkTeWPLvmFTMhqAQ1uK8XMqSswts=",
+      "age": 30,
+      "gmail": "AshrafGomaa@gamil.com",
+      "phone": "010160489",
+      "work": "Doctor Assestant",
+      "gender": "female"
+    },
+    {
+      "id": 16005,
+      "name": "Carmen Fuentes",
+      "imgUrl": "https://thumbs.dreamstime.com/b/doctor-assistant-standing-medical-office-noting-prescriptions-high-quality-photo-211531386.jpg",
+      "age": 30,
+      "gmail": "Carmen@gamil.com",
+      "phone": "010160489",
+      "work": "Doctor Assestant",
+      "gender": "female"
+    },
+    {
+      "id": 16006,
+      "name": "Frances Erskine",
+      "imgUrl": "https://thumbs.dreamstime.com/b/positive-european-female-doctor-assistant-standing-medical-office-making-welcoming-gesture-female-doctor-assistant-standing-229878899.jpg",
+      "age": 30,
+      "gmail": "Frances@gamil.com",
+      "phone": "010160489",
+      "work": "Doctor Assestant",
+      "gender": "female"
+    },
+    {
+      "id": 16007,
+      "name": "Laura Simpson",
+      "imgUrl": "https://thumbs.dreamstime.com/b/young-doctor-assistant-posing-workplace-hospital-doctor-assistant-posing-workplace-hospital-205735271.jpg",
+      "age": 30,
+      "gmail": "Laura@gamil.com",
+      "phone": "010160489",
+      "work": "Doctor Assestant",
+      "gender": "female"
+    },
+    {
+      "id": 16008,
+      "name": "Tammy Zaleski",
+      "imgUrl": "https://thumbs.dreamstime.com/b/female-doctor-assistant-standing-medical-office-positive-european-female-doctor-assistant-standing-medical-office-making-259685727.jpg",
+      "age": 30,
+      "gmail": "Tammy@gamil.com",
+      "phone": "010160489",
+      "work": "Doctor Assestant",
+      "gender": "female"
+    }
+  ],
+  "sevices": [
+    {
+      "id": 17000,
+      "name": "Crown and bridges",
+      "imgUrl": "https://lirp.cdn-website.com/aee5b54b/dms3rep/multi/opt/icon1-2-182w.png",
+      "descriptiveImdUrl": "data:image/jpeg;base64,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",
+      "about": "A crown or cap is a dental restoration that covers the exposed surface of a tooth to strengthen it or improve its appearance. A bridge is a dental restoration to replace one or more missing teeth. It includes an artificial tooth or teeth which are fused to crowns on either side to provide support. Crowns and bridges are designed to match the natural shape and strength of the teeth and can be made up of different types of material."
+    },
+    {
+      "id": 17001,
+      "name": "Dental implants",
+      "imgUrl": "https://lirp.cdn-website.com/aee5b54b/dms3rep/multi/opt/icon2-182w.png",
+      "descriptiveImdUrl": "https://images.pexels.com/photos/3845548/pexels-photo-3845548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "about": "Dental implants are surgically placed in your jawbone, where they serve as the roots of missing teeth. Because the titanium in the implants fuses with your jawbone, the implants won't slip, make noise or cause bone damage the way fixed bridgework or dentures might. And the materials can't decay like your own teeth that support regular bridgework can"
+    },
+    {
+      "id": 17002,
+      "name": "Dentures and partial dentures",
+      "imgUrl": "https://lirp.cdn-website.com/aee5b54b/dms3rep/multi/opt/icon3-182w.png",
+      "descriptiveImdUrl": "https://images.pexels.com/photos/6502343/pexels-photo-6502343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "about": "A denture is a removable replacement for missing teeth and surrounding tissues. Two types of dentures are available -- complete and partial dentures. Complete dentures are used when all the teeth are missing, while partial dentures are used when some natural teeth remain."
+    },
+    {
+      "id": 17003,
+      "name": "Restorative and cosmetic dentistrys",
+      "imgUrl": "https://lirp.cdn-website.com/aee5b54b/dms3rep/multi/opt/icon4-182w.png",
+      "descriptiveImdUrl": "https://thumbs.dreamstime.com/b/dentist-holding-teeth-cover-closeup-view-dentist-holding-teeth-cover-closeup-view-restorative-dentistry-136837798.jpg",
+      "about": "Restorative dental treatments are those that are performed in order to repair a broken, decayed, or missing tooth.Cosmetic dental treatments, on the other hand, are elective procedures used to alter the color, shape, size, alignment, and spacing of teeth."
+    },
+    {
+      "id": 17004,
+      "name": "Porcelain veneers",
+      "imgUrl": "https://lirp.cdn-website.com/aee5b54b/dms3rep/multi/opt/icon5-182w.png",
+      "descriptiveImdUrl": "https://images.pexels.com/photos/4971503/pexels-photo-4971503.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "about": "Dental veneers (sometimes called porcelain veneers or dental porcelain laminates) are wafer-thin, custom-made shells of tooth-colored materials designed to cover the front surface of teeth to improve your appearance. These shells are bonded to the front of the teeth changing their color, shape, size, or length."
+    },
+    {
+      "id": 17005,
+      "name": "Comprehensive reconstruction",
+      "imgUrl": "https://lirp.cdn-website.com/aee5b54b/dms3rep/multi/opt/icon6-182w.png",
+      "descriptiveImdUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWA5rr1pJ8yj4rO7Ze4PUvNC_iRX2pur2FA&usqp=CAU",
+      "about": "To restore both midfacial form and function, the palatoalveolar defect and the status of the orbital floor and orbital contents must be addressed. Defects that involve the anterior maxilla should be addressed with osteocutaneous free flaps if possible, and posterior defects can often be reconstructed with soft-tissue free flaps. The orbital floor requires rigid reconstruction, with either bone grafts or alloplasts, unless the orbital contents have also been exenterated, in which case a soft-tissue free flap should be used to close the orbital cavity."
+    }
+  ]
+}

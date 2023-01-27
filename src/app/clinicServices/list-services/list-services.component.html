@@ -1,0 +1,15 @@
+<div class="home mt-5 mb-5">
+  <div class="container-fluid ">
+    <a class=" text-left back mb-5" routerLink="/home"><i class="fa-solid fa-house"></i></a>
+    <div class="text-left mt-4">
+    </div>
+    <h1 class="text-center text-light ">Cosmetic Dental Services</h1>
+    <div class="row " >
+    <div class="card col-md-3 animate__animated animate__backInLeft" *ngFor="let data of allData;let i=index">
+      <a routerLink="/showService/{{data.id}}"><img [src]="data.imgUrl" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-text text-center text-light ">{{data.name}}</h5>
+      </div>
+  </div>
+  </div>
+  </div>

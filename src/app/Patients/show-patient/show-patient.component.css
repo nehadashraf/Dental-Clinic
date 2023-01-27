@@ -1,0 +1,67 @@
+
+.fa-circle-check{
+color: lightskyblue;
+}
+.section-bg{
+  background-image: url("https://images.pexels.com/photos/4269362/pexels-photo-4269362.jpeg?auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .7;
+  color:white
+}
+img{
+  border: 5 solid;
+  border-radius: 10%;
+}
+.btn{
+  background-color: #62a3cc;
+  color: white;
+}
+.button{
+  background-color: rgb(251,105,98);
+
+}
+span{
+  color:  white;
+  font-weight: bold;
+
+}
+.info{
+  color: grey
+}
+.card{
+  font-weight: bold;
+  color: black;
+  width: 80%;
+  background-color:  #62a3cc96;
+  padding: 10%;
+}
+td{
+  border: 0;
+}
+table{
+  width: 70%;
+  margin: auto;
+}
+.td{
+  float: right;
+}
+.back{
+  text-decoration: none;
+  font-size: 20px;
+  background-color:rgba(251, 106, 98, 0.854);
+  color: white;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+@media (max-width: 750px) {
+
+  table{
+    width: 100%;
+    margin: auto;
+  }
+  .card{
+    width: 98%;
+  }
+}
