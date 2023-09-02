@@ -1,3 +1,20 @@
+pages
+➔ •Sigup and Log in pages
+include Validation and
+Authentication
+➔ Doctors, patients and
+Employees page with add,
+update and delete buttons and
+services page
+➔ pages for Adding and Updating
+Data using json file ,applying
+validations
+➔ pages of showing data using
+IDs for Doctors ,Patients ,
+Employees and services
+➔ contact us page
+responsive full website
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.15.
