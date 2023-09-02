@@ -13,7 +13,7 @@ validations
 IDs for Doctors ,Patients ,
 Employees and services
 ➔ contact us page
-responsive full website
+,and finally it's a responsive website
 
 # MyApp
 
